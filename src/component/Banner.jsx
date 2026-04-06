@@ -4,7 +4,7 @@ import React from 'react';
 
 const Banner = () => {
     return (
-        <div className='flex gap-5 mt-12 justify-between'>
+        <div className='grid justify-center lg:grid-cols-2 gap-5 mt-12  w-11/12 mx-auto'>
             <div>
                 <div className='flex items-center gap-2 mb-6'>
                     <div className='bg-linear-to-r from-purple-600 to-indigo-300 w-3 h-3 rounded-full'></div>
