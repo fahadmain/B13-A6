@@ -17,7 +17,7 @@ const Banner = () => {
 
             </div>
             <div className='w-2xl'>
-                <img className='h-90 w-full' src="/public/assets/banner.png" alt="" />
+                <img className='h-90 w-full' src="/assets/banner.png" alt="" />
             </div>
         </div>
     );
