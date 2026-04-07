@@ -8,9 +8,10 @@ import Models from './component/Models'
 import Navbar from './component/Navbar'
 import Premium from './component/Premium'
 import Steps from './component/Steps'
+import Transparent from './component/Transparent'
 
 const getModels = async () => {
-  const res = await fetch("/public/digitools.json")
+  const res = await fetch("/digitools.json")
   return res.json()
 }
 
@@ -45,6 +46,8 @@ function App() {
         {activeTab === "products" ? <Models modelPromise={modelPromise} carts={carts} setCarts={setCarts}></Models> : <Cart carts={carts} setCarts={setCarts}></Cart>}
 
         <Steps></Steps>
+
+        <Transparent></Transparent>
 
         
       </div>

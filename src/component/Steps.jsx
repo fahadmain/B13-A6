@@ -13,7 +13,7 @@ const Steps = () => {
                         <span className='bg-linear-to-r from-indigo-600 to-purple-600 text-white font-bold rounded-full p-1'>01</span>
                     </div>
                     <div className='mt-5 flex justify-center'>
-                        <img src="/public/assets/user.png" alt="" />
+                        <img src="/assets/user.png" alt="" />
                     </div>
                     <h2 className='text-2xl font-bold mt-5'>Create Account</h2>
                     <p className='text-gray-500 mt-3'>Sign up for free in seconds. No credit card required to get started.</p>
@@ -23,7 +23,7 @@ const Steps = () => {
                         <span className='bg-linear-to-r from-indigo-600 to-purple-600 text-white font-bold rounded-full p-1'>02</span>
                     </div>
                     <div className='mt-5 flex justify-center'>
-                        <img src="/public/assets/package.png" alt="" />
+                        <img src="/assets/package.png" alt="" />
                     </div>
                     <h2 className='text-2xl font-bold mt-5'>Choose Products</h2>
                     <p className='text-gray-500 mt-3'>Browse our catalog and select the tools
@@ -34,7 +34,7 @@ const Steps = () => {
                         <span className='bg-linear-to-r from-indigo-600 to-purple-600 text-white font-bold rounded-full p-1'>03</span>
                     </div>
                     <div className='mt-5 flex justify-center'>
-                        <img src="/public/assets/rocket.png" alt="" />
+                        <img src="/assets/rocket.png" alt="" />
                     </div>
                     <h2 className='text-2xl font-bold mt-5'>Start Creating</h2>
                     <p className='text-gray-500 mt-3'>Download and start using your premium
