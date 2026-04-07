@@ -37,7 +37,7 @@ function App() {
         {/* name of each tab group should be unique */}
         <div className="tabs tabs-box justify-center bg-transparent mb-16 gap-3">
           <input onClick={()=> setActiveTab("products")} type="radio" name="my_tabs_1" className="tab rounded-full w-30 checked:bg-linear-to-r from-indigo-600 to-purple-600 font-bold btn" aria-label="Products" defaultChecked />
-          <input onClick={()=> setActiveTab("cart")} type="radio" name="my_tabs_1" className="tab rounded-full w-30 checked:bg-linear-to-r from-indigo-600 to-purple-600 font-bold btn" aria-label="Cart" />
+          <input onClick={()=> setActiveTab("cart")} type="radio" name="my_tabs_1" className="tab rounded-full w-30 checked:bg-linear-to-r from-indigo-600 to-purple-600 font-bold btn" aria-label={`Cart (${carts.length})`} />
 
         </div>
 

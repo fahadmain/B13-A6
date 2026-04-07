@@ -1,5 +1,6 @@
 import { Check } from "lucide-react";
 import { useState } from "react";
+import { toast } from "react-toastify";
 
 
 const ModelCard = ({model, carts, setCarts}) => {
@@ -7,6 +8,7 @@ const ModelCard = ({model, carts, setCarts}) => {
     const handleAdded = () =>{
         setIsAdded(true)
         setCarts([...carts, model])
+        toast.success("Item added to cart")
     }
     return (
         <div className='p-5 border border-gray-300 rounded-2xl shadow-2xl'>
