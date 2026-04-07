@@ -7,6 +7,14 @@ const ModelCard = ({model, carts, setCarts}) => {
     const [isAdded, setIsAdded] = useState(false)
     const handleAdded = () =>{
         setIsAdded(true)
+
+        const isFound = carts.find(item => item.id === model.id)
+
+        if(isFound) {
+            toast.error("Item already in cart!!")
+            return
+        }
+
         setCarts([...carts, model])
         toast.success("Item added to cart")
     }
