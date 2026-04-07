@@ -9,6 +9,7 @@ import Navbar from './component/Navbar'
 import Premium from './component/Premium'
 import Steps from './component/Steps'
 import Transparent from './component/Transparent'
+import Footer from './component/Footer'
 
 const getModels = async () => {
   const res = await fetch("/digitools.json")
@@ -49,7 +50,7 @@ function App() {
 
         <Transparent></Transparent>
 
-        
+        <Footer></Footer>
       </div>
     </>
   )

@@ -2,7 +2,7 @@ import React from 'react';
 
 const ActiveUsers = () => {
     return (
-        <div className='bg-linear-to-r from-indigo-600 to-purple-600 h-40 mt-12 grid grid-cols-3 items-center place-items-center'>
+        <div className='bg-linear-to-r from-indigo-600 to-purple-600 p-10 mt-12 grid md:grid-cols-2 lg:grid-cols-3 place-items-center gap-5'>
             <div className='text-white'>
                 <h2 className='text-5xl font-bold mb-2'>50K+</h2>
                 <p>Active Users</p>
