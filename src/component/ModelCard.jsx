@@ -2,13 +2,14 @@ import { Check } from "lucide-react";
 import { useState } from "react";
 
 
-const ModelCard = ({model}) => {
+const ModelCard = ({model, carts, setCarts}) => {
     const [isAdded, setIsAdded] = useState(false)
     const handleAdded = () =>{
         setIsAdded(true)
+        setCarts([...carts, model])
     }
     return (
-        <div className='p-5 border border-gray-300 rounded-xl shadow-2xl'>
+        <div className='p-5 border border-gray-300 rounded-2xl shadow-2xl'>
             <div className='mb-5 font-bold flex flex-row justify-end'><p className=' bg-[#fef3c6FF] text-yellow-600 w-25 text-center rounded-xl p-1'>{model.tag}</p></div>
             <img src={model.image} alt="" />
             <h3 className='text-2xl font-bold mt-5'>{model.name}</h3>
