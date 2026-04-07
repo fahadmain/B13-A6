@@ -8,18 +8,26 @@ const Cart = ({ carts, setCarts }) => {
         setCarts([])
     }
 
+    const handleDelete = (item) => {
+        const filteredArray = carts.filter(c => c.id !== item.id)
+        setCarts(filteredArray)
+    }
+
     return (
         <div className="w-11/12 mx-auto border border-gray-300 rounded-xl p-5">
             <h1 className="text-2xl font-bold mb-8">Your Cart</h1>
 
             {carts.length === 0 ? <p className="text-center font-bold">Cart Is Empty</p> : <>
                 {
-                    carts.map(cart => <div key={cart.id} className="flex gap-3 bg-zinc-100 rounded-xl p-5 mb-5">
-                        <img className="" src={cart.image} alt="" />
-                        <div>
-                            <h2 className="font-bold">{cart.name}</h2>
-                            <p className="text-sm text-gray-500">${cart.price}</p>
+                    carts.map(cart => <div key={cart.id} className="flex bg-zinc-100 rounded-xl p-5 mb-5 justify-between">
+                        <div className="flex gap-3 items-center">
+                            <img className="" src={cart.image} alt="" />
+                            <div>
+                                <h2 className="font-bold">{cart.name}</h2>
+                                <p className="text-sm text-gray-500">${cart.price}</p>
+                            </div>
                         </div>
+                        <button onClick={()=> handleDelete(cart)} className="text-red-500 btn">Remove</button>
                     </div>)
                 }
                 <div className="flex
