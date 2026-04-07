@@ -1,5 +1,6 @@
 [
   {
+    "image": "https://i.ibb.co/ZRdnktN1/writing-2327400-1.png",
     "id": 1,
     "name": "AI Writing Pro",
     "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
@@ -7,14 +8,14 @@
     "period": "monthly",
     "tag": "Best Seller",
     "tagType": "best seller",
-    "features": [
-      "Unlimited AI generations",
-      "50+ writing templates",
-      "Grammar checker"
-    ],
+    "features1": "Unlimited AI generations",
+    "features2": "50+ writing templates",
+    "features3": "Grammar checker",
+
     "icon": "edit"
   },
   {
+    "image": "https://i.ibb.co/7d9Mmn55/design-tool.png",
     "id": 2,
     "name": "Design Templates Pack",
     "description": "2000+ premium templates for social media, presentations, and marketing materials.",
@@ -22,14 +23,14 @@
     "period": "one-time",
     "tag": "Popular",
     "tagType": "popular",
-    "features": [
-      "2000+ templates",
-      "Monthly updates",
-      "Commercial license"
-    ],
+    "features1": "2000+ templates",
+    "features2": "Monthly updates",
+    "features3": "Commercial license",
+
     "icon": "pen-tool"
   },
   {
+    "image": "https://i.ibb.co/7d9Mmn55/design-tool.png",
     "id": 3,
     "name": "Premium Stock Assets",
     "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
@@ -38,13 +39,17 @@
     "tag": "New",
     "tagType": "new",
     "features": [
-      "10M+ assets",
-      "Commercial use",
-      "No attribution"
+      
+      
+      
     ],
+    "features1": "10M+ assets",
+    "features2": "Commercial use",
+    "features3": "No attribution",
     "icon": "camera"
   },
   {
+    "image": "https://i.ibb.co/m5nFb81W/operation.png",
     "id": 4,
     "name": "Automation Toolkit",
     "description": "Automate repetitive tasks and streamline your workflow with powerful tools.",
@@ -52,14 +57,13 @@
     "period": "monthly",
     "tag": "Popular",
     "tagType": "popular",
-    "features": [
-      "50+ automations",
-      "API access",
-      "Custom workflows"
-    ],
+    "features1": "50+ automations",
+    "features2": "API access",
+    "features3": "Custom workflows",
     "icon": "settings"
   },
   {
+    "image": "https://i.ibb.co/pvcRkJ0h/portfolio.png",
     "id": 5,
     "name": "Resume Builder Pro",
     "description": "Create professional resumes and cover letters that land interviews.",
@@ -67,14 +71,13 @@
     "period": "one-time",
     "tag": "New",
     "tagType": "new",
-    "features": [
-      "100+ templates",
-      "ATS optimization",
-      "Export to PDF"
-    ],
+    "features1": "100+ templates",
+    "features2": "ATS optimization",
+    "features3": "Export to PDF",
     "icon": "file-text"
   },
   {
+    "image": "https://i.ibb.co/4gZ1KDFB/social-media.png",
     "id": 6,
     "name": "Social Media Content Kit",
     "description": "Complete toolkit for creating engaging social media content across all platforms.",
@@ -82,11 +85,9 @@
     "period": "monthly",
     "tag": "Best Seller",
     "tagType": "best seller",
-    "features": [
-      "5000+ assets",
-      "Scheduler included",
-      "Analytics dashboard"
-    ],
+    "features1": "5000+ assets",
+    "features2": "Scheduler included",
+    "features3": "Analytics dashboard",
     "icon": "share-2"
   }
 ]
